@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step1:與RS232藍牙接收器連線\nStep2:與AmigoBot自走車連線\n(可使用 Teleop和Wander)"
+        android:textColor="#7D7D7D" />
+
+    <ListView
+        android:id="@+id/connectList1"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step3:開啟wifi定位\nStep4:開啟MobileCam開始監控\n(可使用 Monitor)"
+        android:textColor="#7D7D7D" />
+
+    <ListView
+        android:id="@+id/connectList2"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp" >
+    </ListView>
+
+</LinearLayout>
